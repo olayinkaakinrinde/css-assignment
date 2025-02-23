@@ -1,0 +1,40 @@
+#FullBackground{
+    display: flex;
+    background-color: rebeccapurple;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#card{
+  background: white; 
+  width: 425px;
+  height: 400px; 
+}
+
+
+img{
+  width: 26.5rem;
+  height: 11rem;
+  margin-bottom: 2rem;
+}
+
+#SmallRectangle{
+  position: relative;
+  display: inline;
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-size: smaller;
+  background-color: olive;
+  padding: 10px;
+  margin-bottom: 30px;
+  
+  }
+ p{
+  margin: 1rem;
+ }
+ 
+
+ 
+
+
+

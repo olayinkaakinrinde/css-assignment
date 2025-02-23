@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero-content h2 {
+    margin: 0;
+}
+
+.features, .pricing, .faqs {
+    padding: 40px 20px;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
